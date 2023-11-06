@@ -1,1 +1,92 @@
-coming soon ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Photo</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<div class="background">
+<div class="bg-black" style="margin-top:23px;height:0px"></div>
+<div class="bg-black" style="margin-top:22px;height:1px"></div>
+<div class="bg-black" style="margin-top:21px;height:2px"></div>
+<div class="bg-black" style="margin-top:20px;height:3px"></div>
+<div class="bg-black" style="margin-top:19px;height:4px"></div>
+<div class="bg-black" style="margin-top:18px;height:5px"></div>
+<div class="bg-black" style="margin-top:17px;height:6px"></div>
+<div class="bg-black" style="margin-top:16px;height:7px"></div>
+<div class="bg-black" style="margin-top:15px;height:8px"></div>
+<div class="bg-black" style="margin-top:14px;height:9px"></div>
+<div class="bg-black" style="margin-top:13px;height:10px"></div>
+<div class="bg-black" style="margin-top:12px;height:11px"></div>
+<div class="bg-black" style="margin-top:11px;height:12px"></div>
+<div class="bg-black" style="margin-top:10px;height:13px"></div>
+<div class="bg-black" style="margin-top:9px;height:14px"></div>
+<div class="bg-black" style="margin-top:8px;height:15px"></div>
+<div class="bg-black" style="margin-top:7px;height:16px"></div>
+<div class="bg-black" style="margin-top:6px;height:17px"></div>
+<div class="bg-black" style="margin-top:5px;height:18px"></div>
+<div class="bg-black" style="margin-top:4px;height:19px"></div>
+<div class="bg-black" style="margin-top:3px;height:20px"></div>
+<div class="bg-black" style="margin-top:2px;height:21px"></div>
+<div class="bg-black" style="margin-top:1px;height:22px"></div>
+
+
+<div class="bg-black" style="margin-top:2px;height:21px"></div>
+<div class="bg-black" style="margin-top:3px;height:20px"></div>
+<div class="bg-black" style="margin-top:4px;height:19px"></div>
+<div class="bg-black" style="margin-top:5px;height:18px"></div>
+<div class="bg-black" style="margin-top:6px;height:17px"></div>
+<div class="bg-black" style="margin-top:7px;height:16px"></div>
+<div class="bg-black" style="margin-top:8px;height:15px"></div>
+<div class="bg-black" style="margin-top:9px;height:14px"></div>
+<div class="bg-black" style="margin-top:10px;height:13px"></div>
+<div class="bg-black" style="margin-top:11px;height:12px"></div>
+<div class="bg-black" style="margin-top:12px;height:11px"></div>
+<div class="bg-black" style="margin-top:13px;height:10px"></div>
+<div class="bg-black" style="margin-top:14px;height:9px"></div>
+<div class="bg-black" style="margin-top:15px;height:8px"></div>
+<div class="bg-black" style="margin-top:16px;height:7px"></div>
+<div class="bg-black" style="margin-top:17px;height:6px"></div>
+<div class="bg-black" style="margin-top:18px;height:5px"></div>
+<div class="bg-black" style="margin-top:19px;height:4px"></div>
+<div class="bg-black" style="margin-top:20px;height:3px"></div>
+<div class="bg-black" style="margin-top:21px;height:2px"></div>
+<div class="bg-black" style="margin-top:22px;height:1px"></div>
+<div class="bg-black" style="margin-top:23px;height:0px"></div>
+</div>
+
+
+<div class="w-full h-full flex items-center justify-center">
+    <div class="relative">
+        <p class="font-bold bg-white p-0.5 text-2xl">hello world</p>
+    </div>
+</div>
+
+    </html>
+
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+          overflow: hidden;
+        }
+      
+        .background {
+          background-image: url('your-image-url.jpg'); /* Ersetzen Sie 'your-image-url.jpg' mit der URL Ihres Hintergrundbildes */
+          height: 200%; /* Hintergrundbild größer machen, um Scroll-Effekt zu ermöglichen */
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -10;
+          background-repeat: repeat-y;
+          animation: scrollBackground 100ms linear infinite;
+        }
+      
+        @keyframes scrollBackground {
+          50% { top: -5%; }
+        }
+      </style>
